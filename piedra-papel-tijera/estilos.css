@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: brown;
+    display: block;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    margin: 2% auto;
+    background-color: yellow;
+    width: 40%;
+    padding: 1%;
+    border-radius: 25px;
+}
+
+.marcoImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorPPT {
+    width: 60%;
+    height: fit-content;
+    padding: 1%;
+    background-color: white;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.imgs {
+    width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_esc {
+    width: 150px;
+}
+
+.vs {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+
+.marcoSelection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.labels {
+    margin-right: 2%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 2%;
+}
+
+.contenedorSelects {
+    margin-right: 3%;
+    display: inline-flex;
+    align-items: center;
+}
+
+#selectJugador {
+    border-radius: 10px;
+    font-size: 14pt;
+    width: 50%;
+    padding: 2%;
+}
+
+#selectPc {
+    padding: 1%;
+    font-size: 16pt;
+    background-color: white;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.marco-pts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pts-jugador {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.labelspt {
+    background-color: yellow;
+    width: 30%;
+    margin-right: 1%;
+    text-align: center;
+}
+
+#ptsj, #ptsp {
+    background-color: white;
+    width: 30%;
+    text-align: center;
+}
+
+.btnJugar {
+    width: 20%;
+    text-align: center;
+}
+
+.jugar {
+    width: 60%;
+    height: 40px;
+    margin-bottom: 2%;
+    padding: 1%;
+    background-color: green;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.marcoResultados {
+    width: 100%;
+    text-align: center;
+}
+
+#resultado {
+    background-color: white;
+    margin: 0 10%;
+    padding: 2%;
+}
+
+#volverJugar {
+    margin-top: 2%;
+    padding: 1%;
+    border-radius: 25px;
+    background-color: lightgreen;
+}
+
+footer {
+    text-align: center;
+    margin-top: 4%;
+    color: white;
+}
